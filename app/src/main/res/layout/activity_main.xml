@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff"
+              android:orientation="vertical">
+
+    <com.linechart.AutoLocateHorizontalView
+        android:id="@+id/recyleview"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#ff8080ff"/>
+
+    <com.linechart.ChartView
+        android:id="@+id/chartview"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        app:bgcolor="#ffffff"
+        app:interval="50dp"
+        app:isScroll="false"
+        app:linecolor="#02bbb7"
+        app:xylinecolor="#e2e2e2"
+        app:xylinewidth="1dp"
+        app:xytextcolor="#7e7e7e"
+        app:xytextsize="12sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1234"/>
+    </LinearLayout>
+
+    <com.linechart.ChartView1
+        android:id="@+id/chartview1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="30dp"
+        app:bgcolor="#ffffff"
+        app:interval="50dp"
+        app:isScroll="false"
+        app:linecolor="#02bbb7"
+        app:xylinecolor="#e2e2e2"
+        app:xylinewidth="1dp"
+        app:xytextcolor="#7e7e7e"
+        app:xytextsize="12sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></LinearLayout>
+
+    <com.linechart.ChartView2
+        android:id="@+id/chartview2"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="30dp"
+        app:bgcolor="#ffffff"
+        app:interval="50dp"
+        app:isScroll="false"
+        app:linecolor="#02bbb7"
+        app:xylinecolor="#e2e2e2"
+        app:xylinewidth="1dp"
+        app:xytextcolor="#7e7e7e"
+        app:xytextsize="12sp"/>
+</LinearLayout>
